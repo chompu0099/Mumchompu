@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ร้านค้าของฉัน</title>
+  <style>
+    body { font-family: sans-serif; margin: 0; padding: 0; background: #f5f5f5; }
+    header { background: #FF6F61; color: white; padding: 20px; text-align: center; }
+    nav { background: #fff; padding: 10px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+    nav a { margin: 0 15px; color: #FF6F61; text-decoration: none; font-weight: bold; }
+    .container { padding: 20px; max-width: 1200px; margin: auto; }
+    .product { background: white; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); margin-bottom: 20px; overflow: hidden; display: flex; }
+    .product img { width: 250px; height: auto; object-fit: cover; }
+    .product-details { padding: 15px; flex-grow: 1; }
+    .product-title { font-size: 1.5em; color: #333; margin-bottom: 10px; }
+    .product-price { color: #FF6F61; font-size: 1.2em; }
+    .buy-btn { display: inline-block; background: #FF6F61; color: white; padding: 10px 20px; margin-top: 10px; border: none; cursor: pointer; border-radius: 3px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>ร้านค้าของฉัน</h1>
+  <p>ยินดีต้อนรับสู่ร้านขายสินค้าออนไลน์</p>
+</header>
+
+<nav>
+  <a href="#home">หน้าหลัก</a>
+  <a href="#products">สินค้า</a>
+  <a href="#contact">ติดต่อเรา</a>
+</nav>
+
+<div class="container" id="products">
+  <h2>สินค้าแนะนำ</h2>
+
+  <div class="product">
+    <img src="https://via.placeholder.com/250x250.png?text=สินค้า+1" alt="สินค้า 1">
+    <div class="product-details">
+      <div class="product-title">เสื้อยืดลายดอกไม้</div>
+      <div class="product-price">฿250</div>
+      <p>ผ้านุ่ม สวมใส่สบาย มีหลายไซซ์ให้เลือก</p>
+      <button class="buy-btn">สั่งซื้อเลย</button>
+    </div>
+  </div>
+
+  <div class="product">
+    <img src="https://via.placeholder.com/250x250.png?text=สินค้า+2" alt="สินค้า 2">
+    <div class="product-details">
+      <div class="product-title">หมวกถักแฮนด์เมด</div>
+      <div class="product-price">฿190</div>
+      <p>งานถักมือทุกชิ้น เหมาะกับอากาศเย็น</p>
+      <button class="buy-btn">สั่งซื้อเลย</button>
+    </div>
+  </div>
+
+</div>
+
+<div class="container" id="contact">
+  <h2>ติดต่อเรา</h2>
+  <p>Line: @myshop | IG: @myshopofficial | Tel: 08x-xxx-xxxx</p>
+</div>
+
+</body>
+</html>
